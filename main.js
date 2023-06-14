@@ -30,13 +30,12 @@ console.log(fruits)
 function ageCalculator(){
     let birthyr = 2003;
     let inDays = (2023-birthyr)*365;
-    let dob = '1994-11-14'
+    let dob = '1990-11-14'
     let calculator = new Date(dob)
   
   
     let h1 = document.createElement('h1');
-    let text = document.createTextNode(`your age is ${inDays} in days ,
-    Born on ${calculator} `)
+    let text = document.createTextNode(`your age is ${inDays} in days.Born on ${calculator} `)
     h1.setAttribute('id', 'inDays');
     h1.appendChild(text);
     document.getElementById('flex-result').appendChild(h1)
