@@ -30,7 +30,7 @@ console.log(fruits)
 function ageCalculator(){
     let birthyr = 2003;
     let inDays = (2023-birthyr)*365;
-    let dob = '1990-11-14'
+    let dob = '1994-11-14'
     let calculator = new Date(dob)
   
   
