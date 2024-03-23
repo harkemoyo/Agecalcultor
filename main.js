@@ -36,11 +36,12 @@ function ageCalculator(){
   
     let h1 = document.createElement('h1');
     let text = document.createTextNode(`your age is ${inDays} in days.Born on ${calculator} `)
+  
     h1.setAttribute('id', 'inDays');
+    h1.setAttribute('style', 'color: Grey;');
     h1.appendChild(text);
     document.getElementById('flex-result').appendChild(h1)
 }
 ageCalculator()
-
 
 
